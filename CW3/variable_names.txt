@@ -1,0 +1,94 @@
+    # 8.1 Proximal Operator
+    
+    Q8_1_a_data_z               ::Vector
+    Q8_1_a_data_gamma           ::Float64
+    
+    Q8_1_a_ans_x                ::Union{Missing,Vector}
+    
+    Q8_1_b_data_z               ::Vector
+    Q8_1_b_data_gamma           ::Float64
+    
+    Q8_1_b_ans_x                ::Union{Missing,Vector}
+    
+    # 8.2  MRI CS Recovery: ADMM
+    
+    Q8_2_data_y                 ::Vector
+    Q8_2_data_Omega             ::Matrix
+    Q8_2_data_X2_ini            ::Matrix
+    Q8_2_data_X3_ini            ::Matrix
+    Q8_2_data_X4_ini            ::Matrix
+    Q8_2_data_X5_ini            ::Matrix
+    Q8_2_data_U2_ini            ::Matrix
+    Q8_2_data_U3_ini            ::Matrix
+    Q8_2_data_U4_ini            ::Matrix
+    Q8_2_data_U5_ini            ::Matrix
+    Q8_2_data_lambda1           ::Float64
+    Q8_2_data_lambda2           ::Float64
+    Q8_2_data_lambda3           ::Float64
+    Q8_2_data_rho               ::Float64
+    
+    Q8_2_1_ans_X1               ::Union{Missing,Matrix}
+    
+    Q8_2_2_ans_X2               ::Union{Missing,Matrix}
+    Q8_2_2_ans_X3               ::Union{Missing,Matrix}
+    Q8_2_2_ans_X4               ::Union{Missing,Matrix}
+    Q8_2_2_ans_X5               ::Union{Missing,Matrix}
+    
+    Q8_2_3_ans_U2               ::Union{Missing,Matrix}
+    Q8_2_3_ans_U3               ::Union{Missing,Matrix}
+    Q8_2_3_ans_U4               ::Union{Missing,Matrix}
+    Q8_2_3_ans_U5               ::Union{Missing,Matrix}
+    
+    Q8_2_4_ans_Xhat             ::Union{Missing,Matrix}
+    
+    # 8.3. Blind Deconvolution: Convex Relaxation
+    
+    Q8_3_data_y                 ::Vector
+    Q8_3_data_X2_ini            ::Matrix
+    Q8_3_data_X3_ini            ::Matrix
+    Q8_3_data_X4_ini            ::Matrix
+    Q8_3_data_U2_ini            ::Matrix
+    Q8_3_data_U3_ini            ::Matrix
+    Q8_3_data_U4_ini            ::Matrix
+    Q8_3_data_lambda1           ::Float64
+    Q8_3_data_lambda2           ::Float64
+    Q8_3_data_lambda3           ::Float64
+    
+    Q8_3_2_ans_X1               ::Union{Missing,Matrix}
+
+    Q8_3_3_ans_X2               ::Union{Missing,Matrix}
+    Q8_3_3_ans_X3               ::Union{Missing,Matrix}
+    Q8_3_3_ans_X4               ::Union{Missing,Matrix}
+
+    Q8_3_4_ans_U2               ::Union{Missing,Matrix}
+    Q8_3_4_ans_U3               ::Union{Missing,Matrix}
+    Q8_3_4_ans_U4               ::Union{Missing,Matrix}
+    
+    Q8_3_5_ans_Xhat             ::Union{Missing,Matrix}
+    
+    # Blind Deconvolution
+    Q8_4_data_y                 ::Vector
+    Q8_4_data_x1ini             ::Vector
+    Q8_4_data_x2ini             ::Vector
+    Q8_4_data_x3ini             ::Vector
+    Q8_4_data_h1ini             ::Vector
+    Q8_4_data_h2ini             ::Vector
+    Q8_4_data_alpha             ::Float64
+    
+    Q8_4_1_a_ans_H              ::Union{Missing,Matrix}
+    Q8_4_1_b_ans_tau            ::Union{Missing,Float64}
+    Q8_4_1_c_ans_x1             ::Union{Missing,Vector}
+    Q8_4_1_c_ans_x2             ::Union{Missing,Vector}
+    Q8_4_1_c_ans_x3             ::Union{Missing,Vector}
+    Q8_4_1_d_ans_subg           ::Union{Missing,Vector}
+    
+    Q8_4_2_a_ans_H              ::Union{Missing,Matrix}
+    Q8_4_2_b_ans_tau            ::Union{Missing,Float64}
+    Q8_4_2_c_ans_h1             ::Union{Missing,Vector}
+    Q8_4_2_c_ans_h2             ::Union{Missing,Vector}
+    Q8_4_2_d_ans_subg           ::Union{Missing,Vector}
+    
+    Q8_4_3_ans_subg             ::Union{Missing,Vector}
+    
+    Q8_4_4_ans_x1               ::Union{Missing,Vector}
+    Q8_4_4_ans_h1               ::Union{Missing,Vector}
